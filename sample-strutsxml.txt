@@ -1,0 +1,19 @@
+sample struts.xml for struts 2.5 application [sohamglobal.com]
+-----------------------------------------------------------------
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+"http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+
+<package name="default" extends="struts-default">
+<action name="login" class="sohamglobal.LoginAction">
+<result name="success">UserHome.jsp</result>
+<result name="fail">Failure.jsp</result>
+</action>
+</package>
+
+</struts> 
