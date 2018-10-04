@@ -1,4 +1,4 @@
- # StrutsMVC
+# Sohams Struts 2.5 MVC with Eclipse 2018-09
 XML, Jar and support files associated with Struts 2.5 MVC Web Development in Java with Eclipse
 
 Collection of code that will help in the development of a web application using -
