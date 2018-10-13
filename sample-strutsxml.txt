@@ -1,5 +1,5 @@
-For Eclipse - sample struts.xml for struts 2.5 application [sohamglobal.com]
------------------------------------------------------------------------------
+ For Eclipse/NetBeans - sample struts.xml for struts 2.5 application [sohamglobal.com]
+---------------------------------------------------------------------------------------
 
 <?xml version="1.0" encoding="UTF-8"?>
 
