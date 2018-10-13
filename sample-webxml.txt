@@ -1,5 +1,5 @@
-Filter entries in web.xml for Struts 2.5 [sohamglobal.com]
----------------------------------------------------------------
+For Eclipse - Filter entries in web.xml for Struts 2.5 [sohamglobal.com]
+-------------------------------------------------------------------------
 
 <filter>
 <filter-name>soham</filter-name>
