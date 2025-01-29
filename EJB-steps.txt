@@ -1,0 +1,67 @@
+
+For Business Logic
+
+1] File -> New -> EJB Project
+2] Specify name to the project
+3] Target runtime will be only WildFly
+4] Next -> Next -> Finish
+5] Empty EJB project created
+
+-----------------
+
+For User Interaction
+
+1] File -> New -> Dynamic Web Project
+2] Specify name to the project
+3] Next -> Next -> check -> Finish
+4] Empty web application project created
+
+-----------------
+
+For Integration
+
+1] File -> New -> Enterprise Application Project
+2] specify name to the project
+3] Next -> Select the EJB and Web modules to include
+4] Finish
+
+-----------------
+
+1] Right click EJB project -> New -> Session Bean
+2] specify the package name and class name
+3] check Local interface option
+4] Next -> specify short name (mapped name)
+5] Finish
+6] an interface and a class is created
+7] open the interface and declare few functions
+8] open the class and define the functions
+9] Right click EJB project -> Export -> EJB JAR File
+10] Specify name and the destination folder for the JAR file
+11] JAR file is created at the specified location
+
+----------------
+
+1] Right click webapps of the web project
+2] File -> New -> JSP -> index.jsp -> Finish
+3] Create a form to take input and submit to servlet
+4] create a package to store servlets
+5] Receive data in the doPost function
+
+---------------
+
+1] Right click the web project
+2] Add the EJB Jar file using Build Path options
+3] Create an object of the EJB class with @EJB annotation
+4] settle the imports for the annotation and class
+5] call the EJB class function in the doPost function
+6] show the result of processing
+
+--------------
+
+1] Right click the Enterprise application
+2] Run on server
+3] the web project will open in the browser
+4] give input and test the result
+
+
+
